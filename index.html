@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sundays</title>
+</head>
+
+<body>
+
+    <!----------------------------HEADER CONTENT----------------------------->
+    <header>
+        <div class="side-nav-section" id="side-nav">
+            <div class="side-nav">
+                <a class="btn icon close active" onclick="closeFunction()">
+                    <i class="fas fa-times"></i>
+                </a>
+                <div class="nav" role="navigation">
+                    <ul role="list" class="main">
+                        <li><a href="hats.html">Նարդիներ</a></li>
+                        <li><a href="beanies.html">Նկարներ</a></li>
+                    </ul>
+                </div>
+                <div class="extra">
+                    <p class="connect cols-2">
+                        <a href="https://www.facebook.com/">
+                            <i class="fab fa-facebook-square"></i>
+                            Facebook</a>
+                        <br>
+                        <a href="https://twitter.com/?lang=en">
+                            <i class="fab fa-twitter-square"></i>
+                            Twitter</a>
+                        <br>
+                        <a href="https://www.pinterest.com/">
+                            <i class="fab fa-pinterest-square"></i>
+                            Pinterest</a>
+                        <br>
+                        <a href="https://www.instagram.com/">
+                            <i class="fab fa-instagram"></i>
+                            Instagram</a>
+                        <br>
+                        <a href="https://www.youtube.com/">
+                            <i class="fab fa-youtube"></i>
+                            YouTube</a>
+                        <br>
+                        <a href="https://www.tiktok.com/en/">
+                            <i class="fab fa-tiktok"></i>
+                            TikTok</a>
+                    </p>
+                    <form action="" class="selectors-form" accept-charset="UTF-8">
+                        <div class="disclosures">
+                            <div class="disclosure">
+                                <button type="button" class="disclosure__toggle">
+                                    <span>Հեռ՝ +37494000475</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="search-overlay" id="search-box">
+                <form action="" class="search-bar" role="search">
+                    <input type="search" name="q" placeholder="Search">
+                    <a class="btn icon close active" data-action="toggle-search" aria-label="Close"
+                        onclick="closeSearch()"><i class="fas fa-times"></i></a>
+                </form>
+            </div>
+            <div class="left">
+                <a class="btn icon browse" data-action="toggle-browse" tabindex="-1" aria-label="Menu"
+                    onclick="openFunction()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <div class="menu">
+                    <ul role="list" class="main">
+                        <li><a href="hats.html">Նարդիներ</a></li>
+                        <li><a href="beanies.html">Նկարներ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Sundays</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Հեռ՝ +37494000475</h2>
+            </div>
+        </div>
+    </header>
+
+    <!----------------------------MAIN CONTENT----------------------------->
+
+    <main>
+        <div class="main" id="MainContent">
+            <div class="layout">
+                <div class="sections" id="Sections">
+                    <div class="main_content middle center">
+                        <div class="overlay" style="background: #484646;opacity: 0.5;"></div>
+                        <div class="container">
+                            <h2>
+                                Այստեղ կգտնեք ձեր ուզած նկարներով նարդիներ,
+                                <br>
+                                հարցերի դեպքում զանգահարել վերեւում նշված հեռախոսահամարով
+                            </h2>
+                            <a href="catalog.html" class="btn action">
+                                Տեսնել բոլոր ապրանքները
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="shop-section-template" class="shop-section">
+                        <div class="collections-list no-padding">
+                            <div class="collections-items">
+                                <!-- <div>
+                                    <a href="gifts.html" class="collections-item one-third tall cover">
+                                        <div class="title">
+                                            <h4>Նարդիներ</h4>
+                                        </div>
+                                        <div class="image-template first_pic"></div>
+                                    </a>
+                                </div> -->
+                                <div>
+                                    <a href="gifts-2.html" class="collections-item one-third tall cover">
+                                        <div class="title">
+                                            <h4>Նկարներ</h4>
+                                        </div>
+                                        <div class="image-template sec_pic"></div>
+                                    </a>
+                                </div>
+                                <!-- <div>
+                                    <a href="gifts-3.html" class="collections-item one-third tall cover">
+                                        <div class="title">
+                                            <h4>Նարդիներ</h4>
+                                        </div>
+                                        <div class="image-template third_pic"></div>
+                                    </a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-section-2">
+                        <div class="featured-collection  expanded">
+                            <h2 class="section-title">
+                                Մեր լավագույն վաճառքները
+                            </h2>
+                            <div class="row">
+                                <div class="collection">
+                                    <div class="products columns_3">
+                                        <div class="product">
+                                            <a href="single-page-17.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-13.jpg"
+                                                            alt="">
+                                                        <img class="pic__2"
+                                                            src="img/nkar-13.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca buy"></span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product">
+                                            <a href="single-page-14.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-10.jpg" alt="">
+                                                        <img class="pic__2" src="img/nkar-10.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca buy"></span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product">
+                                            <a href="single-page-15.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-11.jpg" alt="">
+                                                        <img class="pic__2" src="img/nkar-11.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca sale">
+                                                            
+                                                        </span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product on-sale">
+                                            <a href="single-page-16.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-12.jpg" alt="">
+                                                        <img src="img/nkar-12.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca buy"></span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product">
+                                            <a href="single-page-18.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-14.jpg" alt="">
+                                                        <img class="pic__2"
+                                                            src="img/nkar-14.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca buy"></span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product">
+                                            <a href="single-page-20.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-16.jpg" alt="">
+                                                        <img class="pic__2" src="img/nkar-16.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca buy"></span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product">
+                                            <a href="single-page-9.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-4.jpg" alt="">
+                                                        <img class="pic__2" src="img/nkar-4.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca buy"></span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product on-sale">
+                                            <a href="single-page-19.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-15.jpg"
+                                                            alt="">
+                                                        <img class="pic__2"
+                                                            src="img/nkar-15.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca sale">
+                                                            
+                                                        </span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product">
+                                            <a href="single-page-13.html" class="inner">
+                                                <div class="image">
+                                                    <div class="frame portrait">
+                                                        <img src="img/nkar-9.jpg" alt="">
+                                                        <img class="pic__2" src="img/nkar-9.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info">
+                                                    <div class="status nowrap">
+                                                        <span class="ca buy"></span>
+                                                    </div>
+                                                    <div class="metas">
+                                                        <div>
+                                                            <span class="price">40.000 դր.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <a href="more-product.html" class="btn action small">Տեսնել ավելի շատ ապրանքներ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-section-3 section-rich-text">
+                        <div class="content rich-text with-background expanded">
+                            <div class="inner with-layout-options centered extended">
+                                <h2 class="section-title">
+                                    Ունենք առաքում ՀՀ ամբողջ տարածքով, առաքումը կլինի անվճար Երեւանի ցանկացած տարածքում
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-section-9">
+                        <div class="featured-video no-padding with-background-2">
+                            <div class="video">
+                                <iframe src="//www.youtube.com/embed/7dCv8m_SLmk?rel=0&showinfo=0&vq=720&enablejsapi=1"
+                                    frameborder="0"></iframe>
+                                <div class="cover">
+                                    <div class="image"></div>
+                                    <div class="play">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px"
+                                            width="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
+                                            xml:space="preserve">
+                                            <path class="stroke-solid"
+                                                d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7 C97.3,23.7,75.7,2.3,49.9,2.5">
+                                            </path>
+                                            <path class="icon"
+                                                d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!----------------------------FOOTER CONTENT----------------------------->
+
+            <div class="shop-section-footer">
+                <div class="footer">
+                    <div class="footer-content with-padding">
+                        <div class="extra row cols blocks-4">
+                            <div class="col">
+                                <h1>Կապվեք մեզ հետ</h1>
+                                <p class="cols-1">
+                                    <a href="https://twitter.com/?lang=en">
+                                        <i class="fab fa-twitter"></i>
+                                        @Sundays</a>
+                                    <br>
+                                    <a href="https://accounts.google.com/">
+                                        <i class="fas fa-envelope"></i>
+                                        support@Sundays.com</a>
+                                    <br>
+                                    <a href="#">
+                                        <i class="fas fa-phone-alt"></i>
+                                        +37494000475</a>
+                                </p>
+                            </div>
+                            <div class="col">
+                                <h1>Մեր մասին</h1>
+                                <p class="rte">
+                                    Այստեղ կգտնեք ձեր ուզած նկարներով նարդիներ,
+                                    հարցերի դեպքում զանգահարել նշված հեռախոսահամարով
+                                </p>
+                            </div>
+                            <div class="col">
+                                <h1>Հետեւեք մեզ</h1>
+                                <p class="connect cols-2">
+                                    <a href="https://www.facebook.com/">
+                                        <i class="fab fa-facebook-square"></i>
+                                        Facebook</a>
+                                    <br>
+                                    <a href="https://twitter.com/?lang=en">
+                                        <i class="fab fa-twitter-square"></i>
+                                        Twitter</a>
+                                    <br>
+                                    <a href="https://www.pinterest.com/">
+                                        <i class="fab fa-pinterest-square"></i>
+                                        Pinterest</a>
+                                    <br>
+                                    <a href="https://www.instagram.com/">
+                                        <i class="fab fa-instagram"></i>
+                                        Instagram</a>
+                                    <br>
+                                    <a href="https://www.youtube.com/">
+                                        <i class="fab fa-youtube"></i>
+                                        YouTube</a>
+                                    <br>
+                                    <a href="https://www.tiktok.com/en/">
+                                        <i class="fab fa-tiktok"></i>
+                                        TikTok</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="extra second">
+                                    Accepted Payments:
+                                    <div class="icons">
+                                        <svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg"
+                                            role="img" width="38" height="24" aria-labelledby="pi-visa">
+                                            <path opacity=".07"
+                                                d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32">
+                                            </path>
+                                            <path
+                                                d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z"
+                                                fill="#142688"></path>
+                                        </svg>
+                                        <svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img"
+                                            viewBox="0 0 38 24" width="38" height="24"
+                                            aria-labelledby="pi-american_express">
+                                            <g fill="none">
+                                                <path fill="#000"
+                                                    d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z"
+                                                    opacity=".07"></path>
+                                                <path fill="#006FCF"
+                                                    d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1">
+                                                </path>
+                                                <path fill="#FFF"
+                                                    d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg"
+                                            width="38" height="24" role="img" aria-labelledby="pi-maestro">
+                                            <path opacity=".07"
+                                                d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32">
+                                            </path>
+                                            <circle fill="#EB001B" cx="15" cy="12" r="7"></circle>
+                                            <circle fill="#00A2E5" cx="23" cy="12" r="7"></circle>
+                                            <path fill="#7375CF"
+                                                d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z">
+                                            </path>
+                                        </svg>
+                                        <svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg"
+                                            width="38" height="24" role="img" aria-labelledby="pi-master">
+                                            <path opacity=".07"
+                                                d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32">
+                                            </path>
+                                            <circle fill="#EB001B" cx="15" cy="12" r="7"></circle>
+                                            <circle fill="#F79E1B" cx="23" cy="12" r="7"></circle>
+                                            <path fill="#FF5F00"
+                                                d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="extra">
+                                    © Copyright 2022
+                                    <a href="index.html">Sundays</a>
+                                    <br>
+                                    <a href="index.html">Powered by Lyova</a>
+                                    with
+                                    <a href="index.html">California Theme</a>
+                                </div>
+                            </div>
+                            <div class="right">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
